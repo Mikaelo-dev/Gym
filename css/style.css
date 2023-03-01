@@ -1,4 +1,7 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+/* font-family: 'Alegreya', serif; */
+
 /* All medias */
 /* 
     Mobile devices – 320px — 480px.
@@ -7,7 +10,7 @@
     Desktops, large screens – 1025px — 1200px.
     Extra large screens, TV – 1201px, and more.
 */
-html{
+html,body{
     width: 100vw;
     height: 100vh;
     color: white;
@@ -17,8 +20,11 @@ header{
     text-align: center;
     padding: 10px;
 }
-h1{
+h1.title{
     font-size: 1.8em;
+    border-bottom: 1px solid white;
+    width: 150px;
+    margin: auto;
 }
 span#burger{
     display: block;
@@ -43,7 +49,29 @@ ul li a{
 }
 /* Fundo */
 body{
-    background: url("../img/workout-vertical-pq.jpg") center center no-repeat;
+    background: url("../img/workout-vertical-pq.jpg") center bottom no-repeat fixed;
     background-size: cover;
 }
 
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main article{
+    text-align: center;
+    width: 300px;
+}
+h1{
+    font-size: 1.3em;
+    color: #ffffffe6;
+    text-shadow: 2px 2px 3px black;
+    font-family: 'Alegreya', serif;
+}
+h2{
+    font-size: 1.1em;
+    color: #fffffff1;
+    text-shadow: 2px 2px 3px black;
+    font-family: 'Alegreya', serif;
+}
