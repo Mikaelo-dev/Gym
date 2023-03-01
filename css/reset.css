@@ -2,4 +2,6 @@
     margin: 0px;
     padding: 0px;
     list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }

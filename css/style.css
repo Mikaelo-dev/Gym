@@ -1,12 +1,49 @@
 @charset "UTF-8";
 /* All medias */
-
+/* 
+    Mobile devices – 320px — 480px.
+    iPads, Tablets – 481px — 768px.
+    Small screens, laptops – 769px — 1024px.
+    Desktops, large screens – 1025px — 1200px.
+    Extra large screens, TV – 1201px, and more.
+*/
 html{
     width: 100vw;
     height: 100vh;
-    color: black;
+    color: white;
+}
+header{
+    background-color: #0d0d0d;
+    text-align: center;
+    padding: 10px;
+}
+h1{
+    font-size: 1.8em;
+}
+span#burger{
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+nav {
+    display: none;
+}
+ul li {
+    border: 1px solid white;
+    margin-bottom: 10px;
+    background-color:#20202029;
+    padding: 5px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    
 }
 /* Fundo */
 body{
-    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20,1)) url("../img/workout-edit.jpg");
+    background: url("../img/workout-vertical-pq.jpg") center center no-repeat;
+    background-size: cover;
 }
+

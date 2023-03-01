@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" media="all">
     <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>Gym</title>
 </head>
 <body>
     <header>
-        <h1>Gym</h1>
-        <nav>
+        <h1>Gym cute</h1>
+        <span id="burger" onclick="showMenu()" class="material-symbols-outlined">menu</span>
+        <nav id="itens">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Sobre nós</a></li>
@@ -25,10 +27,21 @@
             <h1>Vontade de ficar na cama reclamando? Levanta e reclama num bom treino!</h1>
             <h2>Se inscreva agora e mude de vida</h2>
             <div class="btns">
-                <button class="btn-sale">Aproveite a promoção de 20%</button>
-                <button class="btn-expe">Agendar aula experimental</button>
+                <button class="btn-desc">Aproveite a promoção de 20%</button>
+                <button class="btn-expex">Agendar aula experimental</button>
             </div>
         </article>
     </main>
+    
+    <script>
+        function showMenu(){
+            if (itens.style.display == "block"){
+                itens.style.display = "none"
+            } else {
+                itens.style.display = "block"
+            }
+        }
+    </script>
+
 </body>
 </html>
