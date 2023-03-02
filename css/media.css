@@ -1,0 +1,57 @@
+/* 
+    Mobile devices – 320px — 480px.
+    iPads, Tablets – 481px — 768px.
+    Small screens, laptops – 769px — 1024px.
+    Desktops, large screens – 1025px — 1200px.
+    Extra large screens, TV – 1201px, and more.
+*/
+
+@media screen and (min-width:481px) {
+    nav{
+        display: block;
+    }
+    span#burger{
+        display: none;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    h1.title{
+        font-size: 2em;
+        border-bottom: none;
+        margin-bottom: 10px;
+        width: 200px;
+    }
+    ul li{
+        display: inline-block;
+        width: 100px;
+        margin-left: auto;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+        transition: 1s;
+    }
+    ul li:hover{
+        background-color: #070707;
+        border-radius: 5px;
+    }
+    body{
+        background: url("../img/workout.jpg") center center no-repeat fixed;
+        background-size: cover;
+    }
+    main article{
+        width: 500px;
+    }
+    main h1.frase{
+        font-size: 1.9em;
+    }
+    main h2{
+        font-size: 1.8em;
+    }
+    article div.btns{
+        width: 400px;
+    }
+    div.btns button{
+        width: 300px;
+        font-size: 17px;
+    }
+}

@@ -3,14 +3,8 @@
 /* font-family: 'Alegreya', serif; */
 
 /* All medias */
-/* 
-    Mobile devices – 320px — 480px.
-    iPads, Tablets – 481px — 768px.
-    Small screens, laptops – 769px — 1024px.
-    Desktops, large screens – 1025px — 1200px.
-    Extra large screens, TV – 1201px, and more.
-*/
-html,body{
+
+html{
     width: 100vw;
     height: 100vh;
     color: white;
@@ -18,12 +12,13 @@ html,body{
 header{
     background-color: #0d0d0d;
     text-align: center;
-    padding: 10px;
+    padding-top: 10px;
+    margin: 0px;
 }
 h1.title{
-    font-size: 1.8em;
+    font-size: 1.7em;
     border-bottom: 1px solid white;
-    width: 150px;
+    width: 130px;
     margin: auto;
 }
 span#burger{
@@ -35,21 +30,27 @@ nav {
     display: none;
 }
 ul li {
-    border: 1px solid white;
+    display: block;
+    margin: auto;
     margin-bottom: 10px;
+    padding: 5px 0px;
+    width: 200px;
+    border: 1px solid white;
     background-color:#20202029;
-    padding: 5px;
+    transition: 900ms;
+}
+ul li:hover{
+    background-color: #070707;
 }
 ul li a{
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
-    
 }
 /* Fundo */
 body{
-    background: url("../img/workout-vertical-pq.jpg") center bottom no-repeat fixed;
+    background: url("../img/workout-vertical-pq.jpg") center center no-repeat fixed;
     background-size: cover;
 }
 
@@ -63,15 +64,38 @@ main article{
     text-align: center;
     width: 300px;
 }
-h1{
+h1.frase{
     font-size: 1.3em;
-    color: #ffffffe6;
-    text-shadow: 2px 2px 3px black;
+    color: white;
+    text-shadow: 1px 1px 3px black;
     font-family: 'Alegreya', serif;
 }
 h2{
     font-size: 1.1em;
-    color: #fffffff1;
+    color: #fff;
     text-shadow: 2px 2px 3px black;
     font-family: 'Alegreya', serif;
+    margin: 10px 0px;
+}
+div.btns{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    margin: auto;
+
+}
+div.btns button{
+    background-color: #0d0d0d70;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 5px;
+    font-weight: bold;
+    width: 200px;
+    margin: auto;
+    transition: 900ms;
+    margin-right: 5px;
+}
+div.btns button:hover{
+    background-color: #070707;
 }
