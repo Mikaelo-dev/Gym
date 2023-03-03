@@ -5,7 +5,14 @@
     Desktops, large screens – 1025px — 1200px.
     Extra large screens, TV – 1201px, and more.
 */
-
+@media screen and (min-width:424px) and (max-width:481px) {
+    h1.frase{
+        font-size: 1.5em;
+    }
+    article h2{
+        font-size: 1.3em
+    }
+}
 @media screen and (min-width:481px) {
     nav{
         display: block;
@@ -42,7 +49,7 @@
         font-size: 1.7em;
     }
     main h2{
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
     main article{
         width: 500px;
@@ -60,7 +67,7 @@
         font-size: 1.9em;
     }
     main h2{
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
     article div.btns{
         width: 400px;
@@ -82,7 +89,7 @@
         font-size: 2.1em;
     }
     main h2{
-        font-size: 1.9em;
+        font-size: 1.6em;
     }
     article div.btns{
         width: 500px;

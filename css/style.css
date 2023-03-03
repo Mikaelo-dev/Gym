@@ -1,6 +1,6 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
-/* font-family: 'Alegreya', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;900&display=swap');
+/* font-family: 'Cairo', sans-serif; */
 
 /* All medias */
 
@@ -12,7 +12,7 @@ html{
 header{
     background-color: #0d0d0d;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
     margin: 0px;
 }
 h1.title{
@@ -63,17 +63,20 @@ main{
 }
 main article{
     text-align: center;
-    width: 300px;
+    width: 310px;
 }
 h1.frase{
     font-size: 1.3em;
+    font-weight: 700;
     color: white;
-    font-family: 'Alegreya', serif;
+    font-family: 'Cairo', sans-serif;
+    text-shadow: 1px 1px 3px black;
 }
 h2{
-    font-size: 1.1em;
+    font-size: 1em;
     color: white;
-    font-family: 'Alegreya', serif;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 1px 1px 3px black;
     margin: 10px 0px;
 }
 div.btns{
