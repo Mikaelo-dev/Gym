@@ -50,8 +50,9 @@ ul li a{
 }
 /* Fundo */
 body{
-    background: url("../img/workout-vertical-pq.jpg") center center no-repeat fixed;
+    background: url("../img/workout-vertical.jpg") center center no-repeat fixed;
     background-size: cover;
+    overflow: hidden;
 }
 
 main{
@@ -67,13 +68,11 @@ main article{
 h1.frase{
     font-size: 1.3em;
     color: white;
-    text-shadow: 1px 1px 3px black;
     font-family: 'Alegreya', serif;
 }
 h2{
     font-size: 1.1em;
-    color: #fff;
-    text-shadow: 2px 2px 3px black;
+    color: white;
     font-family: 'Alegreya', serif;
     margin: 10px 0px;
 }
