@@ -16,9 +16,10 @@ header{
     margin: 0px;
 }
 h1.title{
-    font-size: 1.7em;
+    font-variant: small-caps;
+    font-size: 1.5em;
     border-bottom: 1px solid white;
-    width: 130px;
+    width: 190px;
     margin: auto;
 }
 span#burger{
@@ -52,7 +53,7 @@ ul li a{
 body{
     background: url("../img/workout-vertical.jpg") center center no-repeat fixed;
     background-size: cover;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 main{
@@ -60,10 +61,14 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 main article{
     text-align: center;
     width: 310px;
+}
+article.home{
+    margin-bottom: 20vh;
 }
 h1.frase{
     font-size: 1.3em;
