@@ -10,9 +10,8 @@ Se parar para comparar a responsividade de um com outro, será imensa
 
 Mas não vou mudar nada,será como uma prova do meu conhecimento.
 ## Screenshots
-<div >
-    <img src="img/quadrado.png" width="400px" alt="Imagem do site em quadrado">
-    <img src="img/horizontal.png" width="500px" alt="Imagem do site na horizontal">
+<div>
+    <img src="img/horizontal.png" alt="Imagem do site na horizontal">
 </div>
 
 
