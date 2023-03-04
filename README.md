@@ -17,5 +17,5 @@ Mas não vou mudar nada,será como uma prova do meu conhecimento.
 
 ## Veja no ar
 
-Clique <a href="">aqui</a>
+Clique <a href="https://mikaelo-dev.github.io/Gym/" target="_blank">aqui</a>
 
