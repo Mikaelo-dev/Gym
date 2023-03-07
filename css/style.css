@@ -3,11 +3,18 @@
 /* font-family: 'Cairo', sans-serif; */
 
 /* All medias */
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 html{
     width: 100vw;
     height: 100vh;
     color: white;
+    overflow-x: hidden;
 }
 header{
     background-color: #0d0d0d;
@@ -53,23 +60,22 @@ ul li a{
 body{
     background: url("../img/workout-vertical.jpg") center center no-repeat fixed;
     background-size: cover;
-    overflow-x: hidden;
 }
 
 main{
+    width: 100vw;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    position: relative;
 }
 main article{
     text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
     width: 310px;
 }
-article.home{
-    margin-bottom: 20vh;
-}
+
 h1.frase{
     font-size: 1.3em;
     font-weight: 700;
@@ -85,9 +91,8 @@ h2{
     margin: 10px 0px;
 }
 div.btns{
-    display: flex;
-    flex-direction: row;
-    width: 300px;
+    display: block;
+    width: 310px;
     margin: auto;
 
 }
@@ -99,9 +104,11 @@ div.btns button{
     padding: 5px;
     font-weight: bold;
     width: 200px;
+    height: 49px;
     margin: auto;
+    font-size: 15px;
     transition: 900ms;
-    margin-right: 5px;
+    margin-top: 10px;
 }
 div.btns button:hover{
     background-color: #070707;
