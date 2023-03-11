@@ -1,115 +1,62 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;900&display=swap');
-/* font-family: 'Cairo', sans-serif; */
 
-/* All medias */
 *{
     margin: 0px;
     padding: 0px;
-    list-style-type: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-html{
-    width: 100vw;
-    height: 100vh;
-    color: white;
-    overflow-x: hidden;
+html body{
+    min-height: 100vh;
 }
 header{
-    background-color: #0d0d0d;
+    background-color: var(--cor-0);
+    color: White;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+header h1{
     text-align: center;
-    padding-top: 20px;
-    margin: 0px;
-}
-h1.title{
     font-variant: small-caps;
-    font-size: 1.5em;
-    border-bottom: 1px solid white;
-    width: 190px;
-    margin: auto;
 }
-span#burger{
+span{
     display: block;
-    margin-top: 10px;
+    margin: auto;
     cursor: pointer;
 }
-nav {
+nav{
+    display: flex;
+    justify-content: center;
+}
+ul{
     display: none;
 }
-ul li {
+ul li{
     display: block;
-    margin: auto;
-    margin-bottom: 10px;
-    padding: 5px 0px;
-    width: 200px;
-    border: 1px solid white;
-    background-color:#20202029;
-    transition: 900ms;
+    margin-top: 15px;
+    width: 100px;
+    text-align: center;
+    border-bottom: 2px solid white;
 }
-ul li:hover{
-    background-color: #070707;
-}
-ul li a{
-    text-decoration: none;
+li a{
     color: white;
-    font-size: 15px;
-    font-weight: 500;
-}
-/* Fundo */
-body{
-    background: url("../img/workout-vertical.jpg") center center no-repeat fixed;
-    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 main{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    
 }
-main article{
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    width: 310px;
+article{
+    
 }
-
-h1.frase{
-    font-size: 1.3em;
-    font-weight: 700;
-    color: white;
-    font-family: 'Cairo', sans-serif;
-    text-shadow: 1px 1px 3px black;
-}
-h2{
-    font-size: 1em;
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    text-shadow: 1px 1px 3px black;
-    margin: 10px 0px;
-}
-div.btns{
-    display: block;
-    width: 310px;
-    margin: auto;
-
-}
-div.btns button{
-    background-color: #0d0d0d70;
-    color: white;
-    border-radius: 10px;
-    border: 1px solid white;
-    padding: 5px;
-    font-weight: bold;
-    width: 200px;
-    height: 49px;
-    margin: auto;
-    font-size: 15px;
-    transition: 900ms;
-    margin-top: 10px;
-}
-div.btns button:hover{
-    background-color: #070707;
+article section.imagem{
+    background: url("../img/workout-vertical.jpg") center center no-repeat fixed;
+    background-size: cover;
 }

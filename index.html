@@ -1,50 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="ptt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css" media="all">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/media.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/9881/9881596.png" type="image/png">
-    <title>Gym</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/var.css">
+    <title>Corpo em ação</title>
 </head>
 <body>
     <header>
-        <h1 class="title">Corpo em Ação</h1>
-        <span id="burger" onclick="showMenu()" class="material-symbols-outlined">menu</span>
-        <nav id="itens">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre nós</a></li>
-                <li><a href="#">Agenda</a></li>
-                <li><a href="#">Aulas</a></li>
+        <h1>Corpo em ação</h1>
+        <span onclick="showMenu()" class="material-symbols-outlined">menu</span>
+        <nav>
+            <ul id="menu">
+                <li><a href="#">Home</a>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Planos</a></li>
+                <li><a href="#">Sobre-nós</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <article class="home" >
-            <h1 class="frase">Ficar na cama reclamando? <br> </h1>
-            <h1 class="frase">Vem reclamar num bom treino!</h1>
-            <h2>Mude agora a porra da tua vida !!!</h2>
-            <div class="btns">
-                <button class="btn-desc">Veja a promoção de 20%</button>
-                <button class="btn-expe">Agendar aula experimental</button>
-            </div>
+        <article>
+            <secttion class="imagem">
+
+            </secttion>
+            <secttion class="sobre-nos">
+
+            </secttion>
         </article>
     </main>
-    
+    <footer>
+        <p>Criado por <strong>Mikael alves</strong></p>
+    </footer>
     <script>
         function showMenu(){
-            if (itens.style.display == "block"){
-                itens.style.display = "none"
+            var elemento = document.getElementById("menu");
+            if (elemento.style.display === "none") {
+                elemento.style.display = "block";
             } else {
-                itens.style.display = "block"
+                elemento.style.display = "none";
             }
-        }
+                }
     </script>
-
 </body>
 </html>
