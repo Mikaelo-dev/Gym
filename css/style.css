@@ -59,9 +59,7 @@ main{
     
 
 }
-section{
-    
-}
+
 .imagem{
     height: 70vh;
     width: 100vw;
@@ -84,7 +82,9 @@ section{
     font-family: 'Cardo', serif;
     text-align: center;
     text-shadow: 3px 2px 4px black;
+    margin-bottom: 50px;
 }
+
 .sobre-nos h1 {
     font-family: 'Libre Baskerville', serif;
     font-size: 1.7em;
